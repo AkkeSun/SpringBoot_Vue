@@ -1,0 +1,57 @@
+.popupBack{
+    width:100%; height:100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    padding:20px;
+}
+.popup{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:40%; left:50%;
+    width:450px;
+    height:575px;
+    background:white;
+    border-radius : 8px;
+}
+.popupImage{
+    width:450px;
+    height:450px;
+    background-size: cover;
+}
+.popupFilter{
+    background-color: #f5eeee;
+    padding-top:10px;
+    width:450px;
+    height:140px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.filterBox{
+    width:104px;
+    height:104px;
+    background-size: cover;
+    margin-left:10px;
+    margin-right:10px;
+    background-color: white;
+    display:inline-block;
+    cursor: pointer;
+}
+.closeBtn{
+    font-size:30px;
+    float:right;
+    margin-right:20px;
+    cursor: pointer;
+}
+.commentInput{
+    width:450px;
+    height:60px;
+    resize:none;
+    border :none;
+}
+.myByn{
+    float:right;
+}
+.nextBtn{
+    float:right;
+    margin-top:-10px;
+}

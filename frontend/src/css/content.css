@@ -1,0 +1,56 @@
+.contents{
+    margin : 0 auto;
+    margin-top :10px;
+    margin-bottom:70px;
+    width:500px;
+    height:640px;
+    border-style: solid;
+    border-width: 1px;
+}
+.title {
+    width:500px;
+    height:60px;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+.comment {
+    padding-top:10px;
+    width:500px;
+    height:70px;
+    border-width: 1px;
+    border-top-style: solid;
+}
+.commentId{
+    font-size:20px;
+    padding-left:20px;
+    padding-right:10px;
+}
+.commentData{
+    font-size:15px;
+}
+.image {
+    width:495px;
+    height:500px;
+    margin : 0 auto;
+    background-color: white;
+    background-size: cover;
+
+}
+.titleImage{
+    width:40px;
+    height:40px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left:20px;
+    margin-top:10px;
+    float: left;
+}
+.titleId{
+    float: left;
+    font-size:25px;
+    padding-top:12px;
+    padding-left:15px;
+}
+.likes{
+    margin-left:20px;
+}
