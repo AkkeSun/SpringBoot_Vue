@@ -112,7 +112,7 @@ public class AwsS3Service {
             log.info(e);
         }
 
-        return cloud_front_url + "/" + fileName;
+        return cloud_front_url + "/" + dirAndFileName;
     }
 
 

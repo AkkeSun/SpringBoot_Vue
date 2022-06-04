@@ -12,8 +12,7 @@ import org.springframework.data.domain.Pageable;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
+
 
 public class PostQueryDslImpl implements PostQueryDsl{
 
